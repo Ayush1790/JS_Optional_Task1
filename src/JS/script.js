@@ -22,6 +22,8 @@ function greater20(x) {
 
 function less20(x) {
     switch (x) {
+        case 0:
+            return ""
         case 1:
             return "one ";
         case 2:
